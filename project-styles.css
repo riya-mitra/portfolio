@@ -1,0 +1,232 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Project Page Specific Styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    color: #007bff;
+}
+
+header .container {
+    display: flex;
+    align-items: left;
+    margin-left: -20px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.project-intro {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.project-details {
+    flex: 1;
+}
+
+.project-details h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+    font-weight: 700;
+}
+
+.project-details p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.buttons .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.buttons .btn:hover {
+    background: #007bff;
+}
+
+/* Wrapper for gallery and project skills */
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Main image styling */
+.main-image {
+    width: 600px; /* Fixed size for the main image box */
+    height: 500px; /* Fixed size for the main image box */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.main-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Thumbnail images styling */
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnails img {
+    cursor: pointer;
+    width: 100px; /* Fixed size for thumbnails */
+    height: 100px; /* Fixed size for thumbnails */
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+    object-fit: cover;
+}
+
+.thumbnails img:hover {
+    border-color: #007bff;
+}
+
+/* Project Skills section styling */
+.project-skills {
+    flex: 1;
+}
+
+.project-skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.project-skills ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.project-skills ul li img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Different colors for each skill */
+.html-skill {
+    background-color: #e9927d;
+    opacity: 70%;
+}
+
+.css-skill {
+    background-color: #6a85f3;
+}
+
+.js-skill {
+    background-color: #9e4bf0;
+    color: #000;
+}
+
+.python-skill {
+    background-color: #45a363;
+}
+
+.aws-skill {
+    background-color: #ff9900;
+}
+
+.spark-skill {
+    background-color: #e25a1c;
+}
+
+.project-description {
+    margin: 40px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
