@@ -247,7 +247,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #a0cfe7; /* Soft pink background */
+    background: #a0cfe7; /* Soft blue background */
 }
 
 .construction-content {
@@ -286,9 +286,9 @@ footer {
 
 .progress {
     width: 50%; /* This can animate dynamically to show progress */
-    background: #a0cfe7; /* Cute pink for progress bar */
+    background: #a0cfe7; 
     height: 100%;
-    animation: progressAnimation 2s infinite;
+    animation: progressAnimation 3s infinite;
 }
 
 .note {
