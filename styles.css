@@ -90,11 +90,7 @@ header .container {
     height: 400px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
-    margin-left: 20px; /* Reduced margin for better alignment */
-}
-
-.profile-image img:hover {
-    transform: scale(1.1);
+    margin-left: 200px; /* Reduced margin for better alignment */
 }
 
 .container {
@@ -186,3 +182,123 @@ footer {
         transform: translateY(0);
     }
 }
+.construction-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a0cfe7; /* Soft pink background */
+}
+
+.construction-content {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.construction-content h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.construction-content p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.construction-image {
+    width: 300px;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 80%;
+    background: #ddd;
+    height: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.progress {
+    width: 50%; /* This can animate dynamically to show progress */
+    background: #a0cfe7; /* Cute pink for progress bar */
+    height: 100%;
+    animation: progressAnimation 2s infinite;
+}
+
+.note {
+    color: #a0cfe7;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@keyframes progressAnimation {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+.construction-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a0cfe7; /* Soft pink background */
+}
+
+.construction-content {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.construction-content h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.construction-content p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.construction-image {
+    width: 300px;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 80%;
+    background: #ddd;
+    height: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.progress {
+    width: 50%; /* This can animate dynamically to show progress */
+    background: #a0cfe7; /* Cute pink for progress bar */
+    height: 100%;
+    animation: progressAnimation 2s infinite;
+}
+
+.note {
+    color: #a0cfe7;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@keyframes progressAnimation {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
